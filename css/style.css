@@ -26,10 +26,12 @@ a {
 /* Колонки */
 
 .row {
-
+display: flex;
+margin 0px -5px;
 }
 .col {
-
+flax: auto;
+margin: 0px 5px;
 }
 
 
@@ -54,21 +56,33 @@ a {
 
 
 /* Страничка жанров и тегов */
+.my-genre {
+margin: 10px 0px;
+padding: 5px 5px;
+}
 
 .genre-first {
-
+background-color: aquamarine;
+border-radius: 5px;
+width: 100%;
 }
 
 .genre-second {
-
+background-color: aqua;
+border-radius: 5px;
+width: 80%;
 }
 
 .genre-third {
-
+background-color: antiquewhite;
+border-radius: 5px;
+width: 60%;
 }
 
 .genre-fourth {
-
+background-color: orchid;
+border-radius: 5px;
+width: 40%;
 }
 
 .tag {
